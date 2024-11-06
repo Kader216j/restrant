@@ -1,0 +1,129 @@
+.container{
+    background-image: url(background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li a{
+    display: block;
+    color: rgb(244, 241, 241);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    color: rgb(190, 44, 195);
+}
+.active{
+    background: green;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 16px 16px 0px;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropdown{
+    background-color: white;
+}
+.container1 .row1{
+    display: flex;
+}
+.container2{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.d{
+    display: flex;
+    gap: 80px;
+    margin-left: 600px;
+    
+}
+.container7 .row1{
+    text-align: center;
+    margin-top: 30px;
+}
+.r2{
+     margin-left: 600px;
+}
+.display{
+    display: flex;
+    gap: 80px;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.container8{
+    background-color: rgb(24, 23, 23);
+    padding: 50px;
+    margin-top: 100px;
+
+}
+.container8 .row1{
+    display: flex;
+    margin-left: 280px;
+}
+.f{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 280px;
+}
+.f .row2{
+    display: flex;
+}
+.f .row3{
+    margin-left: 80px;
+    display: flex;
+}
+.f .row4{
+    margin-left: 80px;
+    display: flex;
+}
+.container8 .row5{
+    border: 5px solid rgb(16, 16, 16);
+    width: 300px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: -140px;
+    background-color: black;
+}
+.flex{
+    display: flex;
+}
+.flex .l{
+    margin-left: 80px;
+}
+.flex .p{
+    margin-left: 20px;
+}
+.form{
+    border: 1px solid goldenrod;
+}
+.container8{
+    display: flex;
+}
+.container9{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.b button{
+    background-color:goldenrod;
+    color: #111010;
+    padding: 10px;
+    border-radius: 10px;
+}
